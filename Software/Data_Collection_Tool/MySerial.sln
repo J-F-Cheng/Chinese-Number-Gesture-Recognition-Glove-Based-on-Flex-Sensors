@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29318.209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySerial", "MySerial\MySerial.csproj", "{C8C94AD0-A6DC-4135-816A-4079CD029587}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8C94AD0-A6DC-4135-816A-4079CD029587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8C94AD0-A6DC-4135-816A-4079CD029587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8C94AD0-A6DC-4135-816A-4079CD029587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8C94AD0-A6DC-4135-816A-4079CD029587}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DFD6C57-58BE-4091-A305-59AF3116EC8B}
+	EndGlobalSection
+EndGlobal
