@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
 
-
+# Load the training and testing data
 x_t = np.load('train_test/x_train.npy')
 x_v = np.load('train_test/x_test.npy')
 y_t = np.load('train_test/y_train.npy')
@@ -14,6 +14,7 @@ clf = OneVsRestClassifier(SVC(C = 1e3, kernel = 'linear'))
 clf.fit(x_t, y_t)
 
 np.set_printoptions(suppress=True)
+# Get the model parameters
 print(clf.score(x_v, y_v))
 print(clf.score(x_t, y_t))
 print(clf.coef_)

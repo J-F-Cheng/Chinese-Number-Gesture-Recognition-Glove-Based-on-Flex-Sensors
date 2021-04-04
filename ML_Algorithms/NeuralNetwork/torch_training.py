@@ -26,7 +26,7 @@ def transform2OneZero(number):
 if __name__ == '__main__':
         
     #x_t,x_v,y_t,y_v= train_test_split(x_train, y_train,test_size=0.2,random_state=150)
-    
+    # Load training and testing data 
     x_t = np.load('data_merging/FingerData_np/x_train.npy')
     x_v = np.load('data_merging/FingerData_np/x_test.npy')
     y_t = np.load('data_merging/FingerData_np/y_train.npy')
